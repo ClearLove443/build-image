@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/onlyyounotothers/runtime:0.43-nikolaik
+FROM docker.all-hands.dev/all-hands-ai/openhands:0.43
 
 # Step 1: Update package list and install base packages (gnupg is needed for gpg)
 RUN apt-get update && \
