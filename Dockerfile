@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/onlyyounotothers/runtime:0.44
+FROM registry.cn-hangzhou.aliyuncs.com/onlyyounotothers/runtime:0.43-nikolaik
 
 # Install necessary packages including OpenJDK, Maven and GitHub CLI
 RUN apt-get update && \
