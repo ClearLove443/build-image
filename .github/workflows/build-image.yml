@@ -2,12 +2,9 @@ name: Sync Multiple Docker Images
 
 on:
   workflow_dispatch:  # 手动触发
-  pull_request:
-    types: [opened, synchronize, reopened]
-    # 可选：指定监听的分支
+  push:
     branches:
       - master
-      - develop
 jobs:
   sync:
     runs-on: ubuntu-latest
