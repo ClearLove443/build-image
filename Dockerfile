@@ -13,6 +13,6 @@ ENV PIP_INDEX_URL=${PIP_INDEX_URL} \
 WORKDIR /app
 
 # Install uv and sync dependencies
-COPY pyproject.toml uv.lock ./
+COPY pyproject.toml ./
 RUN pip install --no-cache-dir uv \
     && uv sync
