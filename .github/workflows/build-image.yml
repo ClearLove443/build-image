@@ -34,7 +34,7 @@ jobs:
           file: ./Dockerfile # Dockerfile 路径，根据实际情况修改
           # 构建标签 (tag)
           tags: |
-            registry.cn-hangzhou.aliyuncs.com/onlyyounotothers/runtime:0.45
+            registry.cn-hangzhou.aliyuncs.com/onlyyounotothers/base:v0.01
           # 推送开关
           push: true
           # 可选：构建平台
